@@ -1,0 +1,52 @@
+// ==============================
+// Override Variables
+// 覆盖变量
+// ==============================
+
+// ========== Code ========== //
+
+// Color of the code
+$code-color: #ffffff; 
+//$code-color-dark: #E5BF78 !default;
+//$code-color-dark: #ffffff;
+
+// Color of the code background
+$code-background-color: #000000;
+//$code-background-color-dark: #272C34 !default;
+
+//$code-info-color: #9c9c9c !default;
+//$code-info-color-dark: #b1b0b0 !default;
+
+// Font size of the code
+//$code-font-size: .875rem !default;
+
+// Font family of the code
+//$code-font-family: Source Code Pro, Menlo, Consolas, Monaco, monospace, $global-font-family !default;
+
+// ========== Table ========== //
+
+// Color of the table background
+//$table-background-color: #fff !default;
+$table-background-color-dark: #fff ;
+
+// Color of the table thead
+//$table-thead-color: #ededed !default;
+$table-thead-color-dark: #ededed ;
+
+tr:nth-child(even) {background-color: #f2f2f2;}
+
+
+//$table-background-color: linear-gradient(to right, rgb(155, 150, 150) , rgb(241, 241, 229)); ;
+//:nth-child(even) {background: #CCC}
+//tr:nth-child(odd) {background: #FFF}
+
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+}
